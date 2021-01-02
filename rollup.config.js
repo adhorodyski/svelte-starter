@@ -5,7 +5,6 @@ import alias from "@rollup/plugin-alias";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import sveltePreprocess from "svelte-preprocess";
-import { preprocessOptions } from "./svelte.config";
 import typescript from "@rollup/plugin-typescript";
 import css from "rollup-plugin-css-only";
 import path from "path";
@@ -44,7 +43,6 @@ export default {
     plugins: [
         svelte({
             preprocess: sveltePreprocess({
-                ...preprocessOptions,
                 sourcemap: !production,
             }),
             compilerOptions: {
@@ -67,7 +65,7 @@ export default {
         }),
         commonjs(),
         typescript({
-            sourceMap: !production,
+            sourceMap: true,
             inlineSources: !production,
         }),
 
