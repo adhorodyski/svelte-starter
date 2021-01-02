@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { countStore } from "../../store";
-    import { ValueSetter } from "components/molecules";
+    import { countStore } from "../../../store";
+    import { ValueSetter } from "../../../components/molecules";
 </script>
 
 <h1>Global count is: {$countStore}!</h1>

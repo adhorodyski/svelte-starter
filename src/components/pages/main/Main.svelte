@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Counter } from "components/organisms";
+    import { Counter } from "../../../components/organisms";
 </script>
 
 <style lang="scss">

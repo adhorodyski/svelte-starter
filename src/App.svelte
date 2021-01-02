@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Main } from "components/pages";
+    import { Main } from "./components/pages";
 </script>
 
 <Main />

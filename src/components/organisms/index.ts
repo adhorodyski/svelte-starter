@@ -1,1 +1,1 @@
-export { default as Counter } from "./Counter.svelte";
+export * from "./counter";

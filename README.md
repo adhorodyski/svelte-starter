@@ -25,6 +25,12 @@ yarn
 yarn dev
 ```
 
+##### Test
+
+```
+yarn test
+```
+
 ##### Validate
 
 ```
