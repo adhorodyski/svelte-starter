@@ -1,8 +1,24 @@
 {
     "name": "svelte-starter",
     "description": "A Svelte app starter for Typescript with Atomic Design.",
+    "author": {
+        "name": "Adam Horodyski",
+        "url": "https://github.com/adhorodyski"
+    },
+    "repository": {
+        "url": "https://github.com/adhorodyski/svelte-starter.git"
+    },
     "version": "1.0.0",
     "license": "MIT",
+    "keywords": [
+        "svelte",
+        "typescript",
+        "starter",
+        "atomic design"
+    ],
+    "engines": {
+        "node": ">=12.0.0 <13.0.0"
+    },
     "scripts": {
         "build": "rollup -c",
         "dev": "rollup -c -w",

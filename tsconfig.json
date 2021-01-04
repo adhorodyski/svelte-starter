@@ -6,6 +6,7 @@
 
     "compilerOptions": {
         "types": ["jest"],
+        "strict": true,
         "baseUrl": "./src",
         "paths": {
             "components/*": ["components/*"],
