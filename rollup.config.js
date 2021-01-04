@@ -72,9 +72,8 @@ export default {
         alias({
             resolve: [".svelte", ".ts"],
             entries: [
-                { find: "components", replacement: path.resolve(__dirname, "src/components") },
-                { find: "store", replacement: path.resolve(__dirname, "src/store") },
-                { find: "core", replacement: path.resolve(__dirname, "src/core") },
+                { find: "components", replacement: path.resolve(__dirname, "./src/components") },
+                { find: "core", replacement: path.resolve(__dirname, "./src/core") },
             ],
         }),
 

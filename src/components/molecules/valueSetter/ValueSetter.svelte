@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Button } from "../../../components/atoms";
+    import { Button } from "components/atoms";
 
     export let onIncrease: () => void;
     export let onDecrease: () => void;
